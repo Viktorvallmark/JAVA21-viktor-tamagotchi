@@ -5,9 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamagotchi</title>
-    <script src="main.js" defer></script>
+    <script src="main.js" type="module"></script>
 </head>
 <body>
-    <h1>Your Tamagotchi!</h1>
+    <h1 id="nameHeader">Your Tamagotchi!</h1>
+    <img id="image" src="/img/cartoon-cute-lizard-illustration-65335160.jpg" alt="cute lizard Tamagotchi">
+    <img id="image2" src="" alt="">
+
+    <p id="Form">
+        <label for="nameOfTamagotchi">Enter the name of your Tamagotchi!</label>
+        <br><br>
+        <input id="Tamagotchi-name" type="text" name="nameOfTamagotchi" value="">
+        <br><br>
+        <label for="typeOfTamagotchi">Enter the type of your Tamagotchi!</label>
+        <br><br>
+        <input id="Tamagotchi-type" type="text" name="typeOfTamagotchi" value="">
+        <br><br>
+        <button type="button">Submit</button>
+    </p>
+
+    <p id="hapMeter">
+
+    </p>
+
+    <p>
+        <label id="labHap" for="happiness">Click the button to play with your Tamagotchi and increase it's happiness!</label>
+        <br><br>
+        <button id="happy">Increase happiness</button>
+    </p>
+
+    <p id="hungMeter">
+
+    </p>
+
+    <p>
+        <label id="labHung" for="hunger">Click the button to decrease your Tamagotchi's hunger!</label>
+        <br><br>
+        <button id="hunger">Decrease hunger</button>
+    </p>
+
+
+
+
 </body>
 </html>
